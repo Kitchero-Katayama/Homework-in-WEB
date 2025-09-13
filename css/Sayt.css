@@ -1,0 +1,120 @@
+/* Задание 1 */
+body
+{
+    background-color: rgb(26, 26, 26); 
+    color: aliceblue;
+}
+.Images1 
+{
+    border: 2px solid rgb(255, 255, 255);
+    display:inline-block;
+    margin: 7px;
+}
+.Images2
+{
+    border: 2px solid rgb(255, 255, 255) ;
+    display:inline-block;
+    margin: 7px;
+}
+.Images3
+{
+    border: 2px solid rgb(255, 255, 255) ;
+    display:inline-block;
+    margin: 7px;
+}
+
+
+/* задание 2 */
+article h2
+{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+article p:first-of-type 
+{
+    font-style: italic;
+    line-height: 1.6;
+}
+article p:last-of-type 
+{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+
+/* Задание 3 */
+.shop-list
+{
+
+    width: 300px ;
+    list-style: none;
+    margin: 20px auto;
+    padding: 10px;;
+    
+}
+.shop-list li:nth-child(1) { background: rgb(0, 0, 0); }
+.shop-list li:nth-child(2) { background: rgb(105, 56, 0); }
+.shop-list li:nth-child(3) { background: rgb(30, 95, 0); }
+.shop-list li:nth-child(4) { background: rgb(78, 0, 85); }
+
+
+/* Задание 4 */
+.table-me
+{
+    width: 500px;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.table-me th, .table-me td
+{
+    border: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    text-align: center;
+}
+.table-me th
+{
+    background:rgb(212, 212, 212);
+    color: rgb(0, 0, 0);
+}
+
+
+/* Задание 5 */
+.news
+{
+    color:black;
+    width: 600px;
+    height: 300px;
+    background-color: rgb(226, 226, 226);
+    border: 2px solid darkgray;
+    text-decoration: underline;
+    margin: 12px auto;
+    padding: 20px;
+
+}
+
+.news h2
+{
+
+    text-align: center;
+
+}
+
+.end
+{
+    width: 500px;
+    border-collapse: collapse;
+    margin: 20px auto
+}
+.end th, .end td
+{
+    border: 1px solid rgb(151, 151, 151);
+    height: 20px;
+    text-align: center;
+}
+.end th
+{
+    background:rgb(216, 216, 216);
+    color: rgb(0, 0, 0);
+}
